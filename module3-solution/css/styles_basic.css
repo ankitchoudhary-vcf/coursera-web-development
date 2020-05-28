@@ -2,14 +2,14 @@ body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a1a1a;
-    background-color: aqua;
+    background-color: #599e4b;
 }
 
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #ce8200;
+    background-color: #c98715;
     border-radius: 0;
     border: 0;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fff9eb;
+    background-color: #fce29e;
 }
 
 .navbar-collapse {
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand h1 {
-    color: #770000;
+    color: #7d1913;
     font-family: 'Abril Fatface', cursive;
     font-weight: bolder;
     font-size: 1.8em;
@@ -49,7 +49,6 @@ body {
 }
 
 #nav-list a {
-    /*text-align: center;*/
     font-weight: bolder;
     color: #282828;
     font-size: 1.2em;
@@ -72,7 +71,7 @@ body {
 
 #main-content {
     width: 92%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #main-content h2 {
@@ -88,13 +87,10 @@ body {
     margin-bottom: 1em;
 }
 
-#chicken-tile, #beef-tile, #sushi-tile {
-    width: 100%;
-    padding: 20px;
-    background-color: #3ad800;
-    margin-bottom: 60px;
-    box-shadow: 0 0 80px #339420;
+#main-section {
+    background-color: #82d06b;
+    box-shadow: 0 0 50px #0f5900;
+    padding: 30px;
 }
-
 
 /** END HOME PAGE **/
